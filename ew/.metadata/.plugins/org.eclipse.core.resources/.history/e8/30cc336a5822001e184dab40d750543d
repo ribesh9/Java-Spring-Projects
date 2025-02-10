@@ -1,0 +1,7 @@
+spring.mvc.view.prefix=/jsps/
+spring.mvc.view.suffix=.jsp
+
+spring.datasource.url=jdbc:mysql://localhost:3306/reservation
+spring.datasource.username=root
+spring.datasource.password=
+spring.jpa.show-sql=true

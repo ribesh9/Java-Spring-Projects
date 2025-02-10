@@ -1,0 +1,5 @@
+package com.example.users.entity;
+
+public class Reservation {
+
+}
