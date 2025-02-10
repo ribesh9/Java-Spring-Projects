@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+<style>
+		*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+body{
+	background-image: url("/view/homepage1.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+.main{
+	
+}
+.navbar{
+	width: 1200px;
+	height: 75px;
+	margin: auto;
+	opacity: 80%;
+}
+.icon{
+	width: 235px;
+	height: 75px;
+	float: left;
+}
+.logo{
+	color: orange;
+	float: left;
+	padding-left: 30px;
+	margin-top: 0px;
+	font-family:garamond;
+}
+.menu{
+	width: 400px;
+	height: 70px;
+	float: left;
+}
+ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+li{
+	list-style: none;
+	margin-left: 100px;
+	margin-top: 6px;
+	font-size: 25px;
+	padding-left:initial;
+	cursor:pointer;
+}
+li a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: garamond;
+	
+}
+li a:hover{
+	color:palegoldenrod;
+}
+
+.srh{
+	
+	margin-top:17px;
+	margin-right:60px;
+	float:right;
+	box-shadow:10px 20px 30px black;
+	
+}
+.btn{
+	font-size:28px;
+	cursor:pointer;
+	background-color: white;
+	border:none;
+	border-top-left-radius:10px;
+	border-bottom-right-radius:10px;
+	font-family:garamond;
+	color:blue;
+}

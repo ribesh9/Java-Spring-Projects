@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: Times new roman;
+	list-style: none;
+	border:none;
+	outline:none;
+}
+
+.sidebar{
+	position: absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	width:282px;
+	height:100vh;
+	padding: 0 1.7rem;
+	color:#ffff;
+	overflow:hidden;
+	trasition:all 0.5s linear;
+	background: rgba(113,99,186,255);
+}
+
+.dashlogo{
+	height:80px;
+	padding:4px;
+	margin:5px;
+}
+
+.dashlogo h3{
+	align-content:center;
+	text-align:center;
+	padding-bottom:33px;
+	padding-top:0px;
+}
+
+.menu{
+	height:88%;
+	position: relative;
+	list-style:none;
+	padding:0;
+	align-content:center;
+	text-align:center;
+	top: -10px;
+    left: 6px;
+    width:230px;
+}
+
+.menu li{
+	padding:1.3rem;
+	margin: 8px 0;
+	border-radius:8px;
+	transition: all 0.5s ease-in-out;
+	
+}
+
+.menu li:hover, active{
+	background:#e0e0e058;
+}
+
+.menu a{
+	color:#fff;
+	font-size:14px;
+	text-decoration:none;
+	display:flex;
+	align-content:center;
+	text-align:center;
+	gap:1.5rem;
+	
+}
+
+.menu a span{
+	overflow:hidden;
+}
+
+.menu a i{
+	font-size:1.2rem;
+}
+
+.logout{
+	position: absolute;
+	top:475px;
+	left:1px;
+	right:0;
+	width:100%;
+}
+
+
